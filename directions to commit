@@ -1,0 +1,9 @@
+cd into repository git
+git checkout development or master (pull latest files from development branch) 
+git pull origin development or master
+make changes to code 
+git status ( to see what files have been updated) 
+git add (name of files) (to stage files to checkin) 
+git commit -m (small explanation of changes) 
+git push origin development or master
+
