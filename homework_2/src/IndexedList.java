@@ -60,9 +60,6 @@ public class IndexedList implements List<Integer> {
 		return null;
 	}
 	
-	
-	
-	
 	/** Dummied out methods**/
 	@Override
 	public boolean isEmpty() {return false;}
@@ -88,7 +85,4 @@ public class IndexedList implements List<Integer> {
 	public int indexOf(Object o) {return 0;}
 	@Override
 	public int lastIndexOf(Object o) {return 0;}
-	
-	
-
 }
