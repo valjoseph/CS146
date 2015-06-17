@@ -5,7 +5,7 @@ import java.util.ListIterator;
 
 /**
  * 
- * @author Tri Ninh - Aeron Escoto
+ * @author Aeron Escoto - Val Joseph Argate - Tri Ninh
  *
  */
 public class IndexedList implements List<Integer> {
