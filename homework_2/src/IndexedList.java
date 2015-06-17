@@ -3,6 +3,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+/**
+ * 
+ * @author Tri Ninh - Aeron Escoto
+ *
+ */
 public class IndexedList implements List<Integer> {
 
 	public static void main(String[] args) {
