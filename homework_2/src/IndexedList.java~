@@ -1,33 +1,22 @@
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
 /**
  * 
- * @author Aaron Escoto - Val Joseph Argate - Tri Ninh
+ * @author Aeron Escoto - Val Joseph Argate - Tri Ninh
  *
  */
-
 public class IndexedList implements List<Integer> {
-	
-	private ArrayList<Node> elmnts;
-	public LinkedList<Node> list; 
-	
-	public IndexedList(int n){
-		 elmnts = new ArrayList<>();
-		 for (int i = 0; i < n; i++) {
-	            elmnts.add(0);
-	        }
-		list = new LinkedList<>(elmnts);
-		
+
+	public static void main(String[] args) {
+
 	}
 
 	@Override
 	public int size() {
-		return list.size();
+		return 0;
 	}
 
 	@Override
@@ -75,7 +64,6 @@ public class IndexedList implements List<Integer> {
 	public List<Integer> subList(int fromIndex, int toIndex) {
 		return null;
 	}
-	
 	
 	/** Dummied out methods**/
 	@Override
